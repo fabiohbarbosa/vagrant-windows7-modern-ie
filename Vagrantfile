@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.guest = :windows
 
-  config.vm.synced_folder "/home/fabio/Downloads", "/vagrant", :nfs => { :mount_options => ["dmode=777","fmode=777"] }
+  config.vm.synced_folder "/home/fabio/Downloads", "e:", :nfs => { :mount_options => ["dmode=777","fmode=777"] }
 
   config.vm.define "windows7" do |windows7|
   end
