@@ -1,4 +1,4 @@
-Vagrant with Windows 7
+Vagrant with Windows 7 - Modern IE Box
 ===
 
 #### To share folder, install NFS in Linux:
